@@ -9,10 +9,11 @@
 				<view class="datepicker-picker-body">
 						<picker-view onChange="onChange" value="{{value}}">
 								<picker-view-column>
-										<view a:for="{{dateTimesArr[0]}}" a:for-item="dayItem" a:for-index="dayIndex" a:key="dayIndex">{{dayItem}}</view>
+										<view a:for="{{dateRange}}" a:for-item="dayItem" a:for-index="dayIndex" a:key="dayIndex">{{dayItem}}</view>
 								</picker-view-column>
 								<picker-view-column>
-										<view a:for="{{dateTimesArr[1]}}" a:for-item="timeItem" a:for-index="timeIndex" a:key="timeIndex">{{timeItem}}</view>
+										<view a:for="{{dateTimesArr[1]}}" a:for-item="timeItem" a:for-index="timeIndex" a:key="timeIndex">{{timeItem}}
+                    </view>
 								</picker-view-column>
 						</picker-view>
 				</view>

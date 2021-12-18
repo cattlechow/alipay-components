@@ -1,0 +1,21 @@
+<view class="container">
+  <view class="item">
+    <view class="title">
+      配送时间：
+    </view>
+    <view class="time-box" catchTap="showPicker">
+      <view class="time">{{dateStr}}</view>
+      <image class="right" mode="scaleToFill" src="../../assets/images/right.png"/>
+      <time-picker
+        a:if="{{timeReturn==1}}"
+				title="{{datePicker.title}}"
+				class="{{datePicker.class}}"
+				visible="{{datePicker.visible}}"
+				onHidePicker="hidePicker"
+				onConfirm="onConfirm"
+				pickerValue="{{datePicker.defaultValue}}"
+        selectedTimeArr="{{selectedTimeArr}}"
+      />
+    </view>
+  </view>
+</view>

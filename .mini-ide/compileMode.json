@@ -1,0 +1,8 @@
+{
+  "modes": [
+    {
+      "title": "e",
+      "page": "pages/dateTimePicker/index"
+    }
+  ]
+}

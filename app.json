@@ -1,5 +1,7 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/dateTimePicker/index",
+    "pages/dateTimeHalfHourPicker/index"
   ]
 }

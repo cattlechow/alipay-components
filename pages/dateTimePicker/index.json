@@ -1,0 +1,7 @@
+{
+    "defaultTitle": "日期选择",
+    "usingComponents": {
+        "time-picker": "../../components/dateTimeHalfHourPicker/dateTimePicker",
+        "picker": "../../components/dateTimePicker/dateTimePicker"
+    }
+}

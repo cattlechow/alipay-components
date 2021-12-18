@@ -1,0 +1,6 @@
+{
+    "defaultTitle": "日期选择(预约制)",
+    "usingComponents": {
+        "time-picker": "../../components/dateTimeHalfHourPicker/dateTimePicker"
+    }
+}

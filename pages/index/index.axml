@@ -1,14 +1,10 @@
-<view class="page-demo">
-  <view class="picker-btn" onTap="showPicker">点击选择日期</view>
-  <view>当前选择的时间为: </view>
-  <view>{{dateStr}}</view>
+<view class="container">
+ <view class="title">
+   功能导航
+ </view>
+ <view class="list">
+   <view class="item" a:for="{{list}}" a:for-item="item" data-url="{{item.url}}" onTap="navigateTo" key="{{item.id}}">
+    {{item.title}}
+  </view>
+ </view>
 </view>
-
-<picker
-				title="{{datePicker.title}}"
-				class="{{datePicker.class}}"
-				visible="{{datePicker.visible}}"
-				onHidePicker="hidePicker"
-				onConfirm="onConfirm"
-				pickerValue="{{datePicker.defaultValue}}"
-/>
